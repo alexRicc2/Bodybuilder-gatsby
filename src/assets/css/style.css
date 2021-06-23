@@ -1,0 +1,11 @@
+.app {
+    display: grid;
+    font-family: 'Oswald', Arial, 'Courier New', Courier, serif;
+    grid-template-areas: 'page-header' 'page-content' 'page-footer';
+}
+.content {
+    grid-area: page-content;
+}
+.header{
+    grid-area: page-header;
+}
