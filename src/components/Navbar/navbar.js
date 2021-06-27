@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'gatsby';
 import './estilo.css'
+import { Link, animateScroll as scroll } from "react-scroll"; //npm install react-scroll
 
 export default function NavBar(){
 
@@ -12,10 +12,10 @@ export default function NavBar(){
             <Link to="#">Bodybuilding</Link>
             </h3>    
             <ul className="nav-bar">
-            <li><Link to="#increase1" className="nav-bar__link">Increase 1</Link></li>
-            <li><Link to="#videos" className="nav-bar__link">Videos</Link ></li>
-            <li><Link to="#increase2" className="nav-bar__link">Increase 2</Link></li>
-            <li><Link to="#reviews" className="nav-bar__link">Reviews</Link></li>
+            <li><Link to="increase1" smooth={true} className="nav-bar__link">Increase 1</Link></li>
+            <li><Link to="videos" smooth={true} className="nav-bar__link">Videos</Link ></li>
+            <li><Link to="increase2" smooth={true} className="nav-bar__link">Increase 2</Link></li>
+            <li><Link to="reviews" smooth={true} className="nav-bar__link">Reviews</Link></li>
         </ul>
         </nav>   
         

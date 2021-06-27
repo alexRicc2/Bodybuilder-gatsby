@@ -1,4 +1,3 @@
-console.log('oiii')
 
     export default function valida(evento){
 
@@ -17,7 +16,7 @@ console.log('oiii')
         const validaNumero = numeroRGEX.test(numero)
         const validaCEP = cepRGEX.test(cep)
     
-        if(validaNumero && validaEmail &&validaCEP){
+        if(validaNumero && validaEmail && validaCEP){
             alert('Parabén você foi cadastrado com sucesso')
         }
         else if(!validaEmail){

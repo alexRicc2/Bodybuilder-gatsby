@@ -4,14 +4,12 @@ import Sponsor from "../components/sponsor/sponsor"
 import Videos from "../components/videos/videos"
 import Quotes from "../components/quotes/quotes"
 import Footer from "../components/footer/footer"
-
-import "../assets/js/validaRegex"
 import imagem2 from "../assets/images/img2.jpg"
 import imagem6 from "../assets/images/img6.jpg"
-
 import '../assets/css/reset.css'
 import '../assets/css/normalize.css'
 import '../assets/css/style.css'
+  
 
 
 export default function Home() {
