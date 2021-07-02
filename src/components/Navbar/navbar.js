@@ -1,6 +1,6 @@
 import React from 'react'
 import './estilo.css'
-import { Link, animateScroll as scroll } from "react-scroll"; //npm install react-scroll
+import { Link } from "react-scroll"; //npm install react-scroll
 
 export default function NavBar(){
 
